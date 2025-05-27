@@ -1,1 +1,89 @@
 /* STYLE FOR YOUR INDEX.HTML */
+body {
+    margin: 0;
+    background-color: rgb(197, 197, 197);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex-container1{
+display: flex;
+height: 30vh;
+/* background-color: rgb(248, 139, 175); */
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+flex-wrap: wrap;
+}
+
+.flex-container2{
+display: flex;
+height: 40vh;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+/* background-color: rgb(213, 252, 175); */
+}
+
+.flex-container3{
+display: flex;
+height: 10vh;
+/* background-color: rgb(248, 139, 175); */
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+}
+
+h1{
+margin: 20px 700px 20px;
+}
+
+.button-about{
+display: flex;
+
+margin: 10px;
+padding: 20px;
+width: 30%;
+
+
+background-color: aquamarine;
+}
+
+.button-about{
+    justify-content: center;
+}
+
+.button-1{
+display: flex;
+
+margin: 10px;
+padding: 20px;
+
+background-color: rgb(146, 146, 146);
+}
+
+.button-2{
+display: flex;
+
+margin: 10px;
+padding: 20px;
+
+background-color: rgb(146, 146, 146);
+}
+
+.button-3{
+display: flex;
+
+margin: 10px;
+padding: 20px;
+
+background-color: rgb(146, 146, 146);
+}
+
+.button-quote{
+display: flex;
+
+margin: 10px;
+padding: 20px;
+
+background-color: rgb(146, 146, 146);
+}
