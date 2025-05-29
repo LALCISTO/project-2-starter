@@ -1,0 +1,23 @@
+body {
+margin: 0;
+background-color: rgb(197, 197, 197);
+font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+margin: 10px 40px;
+}
+
+p{
+margin: 10px 40px;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

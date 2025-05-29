@@ -54,34 +54,37 @@ background-color: aquamarine;
 
 .button-1{
 display: flex;
-
+justify-content: center;
 margin: 10px;
 padding: 20px;
+width: 20%;
 
 background-color: rgb(146, 146, 146);
 }
 
 .button-2{
 display: flex;
-
+justify-content: center;
 margin: 10px;
 padding: 20px;
+width: 20%;
 
 background-color: rgb(146, 146, 146);
 }
 
 .button-3{
 display: flex;
-
+justify-content: center;
 margin: 10px;
 padding: 20px;
+width: 20%;
 
 background-color: rgb(146, 146, 146);
 }
 
 .button-quote{
 display: flex;
-
+justify-content: center;
 margin: 10px;
 padding: 20px;
 

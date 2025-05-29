@@ -3,3 +3,7 @@ body {
     background-color: rgb(197, 197, 197);
     font-family: 'Times New Roman', Times, serif;
 }
+
+h1{
+    text-align: center;
+}
