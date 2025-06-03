@@ -1,13 +1,15 @@
 /* STYLE FOR YOUR INDEX.HTML */
 body {
-    margin: 0;
-    background-color: rgb(197, 197, 197);
-    font-family: 'Times New Roman', Times, serif;
+margin: 0;
+background-image: url(/images/leaves-in-dirt.jpg);
+background-size: cover;
+background-attachment: fixed;
+font-family: 'Times New Roman', Times, serif;
 }
 
 .flex-container1{
 display: flex;
-height: 30vh;
+height: 40vh;
 /* background-color: rgb(248, 139, 175); */
 flex-direction: row;
 justify-content: center;
@@ -34,33 +36,56 @@ align-items: flex-start;
 }
 
 h1{
+display: flex;
 margin: 20px 700px 20px;
+color: aliceblue;
 }
+
+h2{
+display: flex;
+margin: 20px 700px 20px;
+color: aliceblue;
+}
+
 
 .button-about{
 display: flex;
 
 margin: 10px;
 padding: 20px;
-width: 30%;
+width: 35%;
+height: 10%;
 
+background-image: url(/images/dead-sunflower.png);
+background-size: cover;
+background-position: center;
 
-background-color: aquamarine;
+border: 8px ridge #666851;
+border-radius: 10px;
 }
+
 
 .button-about{
-    justify-content: center;
+justify-content: center;
 }
+
 
 .button-1{
 display: flex;
 justify-content: center;
+
 margin: 10px;
 padding: 20px;
 width: 20%;
+height: 20%;
 
-background-color: rgb(146, 146, 146);
+background-image: url(/images/plant-thing.jpg);
+background-size: cover;
+background-position: center;
+border: 8px ridge rgba(104,84,75,255);
+border-radius: 10px;
 }
+
 
 .button-2{
 display: flex;
@@ -68,9 +93,16 @@ justify-content: center;
 margin: 10px;
 padding: 20px;
 width: 20%;
+height: 20%;
 
-background-color: rgb(146, 146, 146);
+background-image: url(/images/dying-flowers.jpg);
+background-size: cover;
+background-position: center;
+
+border: 8px ridge rgba(104,84,75,255);
+border-radius: 10px;
 }
+
 
 .button-3{
 display: flex;
@@ -78,9 +110,16 @@ justify-content: center;
 margin: 10px;
 padding: 20px;
 width: 20%;
+height: 20%;
 
-background-color: rgb(146, 146, 146);
+background-image: url(/images/leaf-sculpture.jpg);
+background-size: cover;
+background-position: center;
+
+border: 8px ridge rgba(104,84,75,255);
+border-radius: 10px;
 }
+
 
 .button-quote{
 display: flex;
