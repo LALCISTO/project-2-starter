@@ -1,4 +1,14 @@
 /* STYLE FOR YOUR INDEX.HTML */
+@font-face{
+    src: url("./fonts/Fluted-Germanica.ttf");
+    font-family: Germanica;
+}
+
+@font-face{
+    src: url("./fonts/EBGaramond-Regular.ttf");
+    font-family: EBGaramond;
+}
+
 body {
 margin: 0;
 background-image: url(./images/leaves-in-dirt.jpg);
@@ -9,7 +19,7 @@ font-family: 'Times New Roman', Times, serif;
 
 .flex-container1{
 display: flex;
-height: 40vh;
+height: 55vh;
 /* background-color: rgb(248, 139, 175); */
 flex-direction: row;
 justify-content: center;
@@ -37,15 +47,18 @@ align-items: flex-start;
 
 h1{
 display: flex;
-margin: 20px 700px 20px;
-color: aliceblue;
+margin: 20px 400px 20px;
+font-family: Germanica;
+font-size: 5vw;
+color: #bd9d6b;
 text-align: center;
 }
 
 h2{
 display: flex;
-margin: 20px 700px 20px;
-color: aliceblue;
+margin: 20px 400px 20px;
+font-family: EBGaramond;
+color: #b09778;
 text-align: center;
 }
 
@@ -62,7 +75,7 @@ background-image: url(./images/dead-sunflower.png);
 background-size: cover;
 background-position: center;
 
-border: 8px ridge #666851;
+border: 8px ridge #4d4e3c;
 border-radius: 10px;
 }
 
@@ -127,7 +140,27 @@ border-radius: 10px;
 display: flex;
 justify-content: center;
 margin: 10px;
-padding: 20px;
+padding: 10px;
 
-background-color: rgb(146, 146, 146);
+background-color: #998670;
+border: 4px ridge #977d53;
+}
+
+p{
+font-family: EBGaramond;
+font-weight: bolder;
+color: #6d5939;
+}
+
+button{
+width: 8vw;
+height: 5vh;
+padding: 5px;
+text-align: center;
+font-size: 15px;
+color: #4d3416;
+font-weight: bold;
+border: 3px solid #554334;
+background-color: #847563;
+font-family: EBGaramond;
 }

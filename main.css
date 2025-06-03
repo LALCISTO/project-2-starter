@@ -1,8 +1,21 @@
 /* STYLE FOR YOU MAIN.HTML */
+@font-face{
+    src: url("./fonts/Fluted-Germanica.ttf");
+    font-family: Germanica;
+}
+
 body {
-    margin: 0;
-    background-color: rgb(196, 172, 150);
-    font-family: 'Times New Roman', Times, serif;
+margin: 0;
+background-image: url(./images/crunched-leaves.jpg);
+background-size: cover;
+background-attachment: fixed;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+text-align: center;
+font-family: Germanica;
+color: #bd9c6d;
 }
 
 .flex-container-about{
@@ -17,9 +30,9 @@ flex-wrap: wrap;
 }
 
 .portrait{
-    display: flex;
-    background-color: rgb(148, 148, 148);
-    padding: 100px;
+display: flex;
+background-image: url(./images/DirtBG.jpg);
+padding: 100px;
 }
 
 .text-box{
@@ -28,6 +41,9 @@ flex-wrap: wrap;
 padding: 30px;
 text-align: justify;
 font-size: 3vh;
+font-weight: bold;
+color: #cebba0;
+background-color: rgba(175, 154, 124, 0.1);
 }
 
 button{
