@@ -1,15 +1,64 @@
+@font-face{
+    src: url("./fonts/Fluted-Germanica.ttf");
+    font-family: Germanica;
+}
+
+@font-face{
+    src: url("./fonts/EBGaramond-Regular.ttf");
+    font-family: EBGaramond;
+}
+
 body {
 margin: 0;
-background-color: rgb(197, 197, 197);
-font-family: 'Times New Roman', Times, serif;
+background-image: url(./images/more-leaves.jpg);
+background-size: cover;
+background-attachment: fixed;
+font-family: Germanica;
 }
 
 h1{
 text-align: center;
+color: #925235;
+font-size: 4vw;
 }
 
 button{
 display: block;
 margin-left: auto;
 margin-right: auto;
+width: 8vw;
+height: 5vh;
+padding: 5px;
+text-align: center;
+font-size: 15px;
+color: #4d3416;
+font-weight: bold;
+border: 3px solid #554334;
+background-color: #847563;
+font-family: EBGaramond;
+}
+
+.flex-gallery{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+img{
+width: 17vw;
+margin: 50px 40px;
+border: 4px ridge #774a35;
+}
+
+.text-bottom{
+display: flex;
+height: 8vh;
+justify-content: center;
+align-items: center;
+background-color: #81674f;
+border: 4px ridge #774a35;
+font-size: 20px;
+font-family: EBGaramond;
+font-weight: bold;
 }
