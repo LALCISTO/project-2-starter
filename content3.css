@@ -1,6 +1,76 @@
-body {
-    margin: 0;
-    background-color: rgb(197, 197, 197);
-    font-family: 'Times New Roman', Times, serif;
+@font-face{
+    src: url("./fonts/Fluted-Germanica.ttf");
+    font-family: Germanica;
 }
 
+@font-face{
+    src: url("./fonts/EBGaramond-Regular.ttf");
+    font-family: EBGaramond;
+}
+
+body {
+margin: 0;
+background-image: url(./images/dead-sunflower.png);
+background-size: cover;
+background-attachment: fixed;
+font-family: EBGaramond;
+font-weight: bold;
+}
+
+h1{
+text-align: center;
+font-size: 4vh;
+font-family: Germanica;
+color: #556b5c;
+}
+
+button{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 8vw;
+height: 5vh;
+padding: 3px;
+text-align: center;
+font-size: 15px;
+color: #4d3416;
+font-weight: bold;
+border: 3px solid #554334;
+background-color: #847563;
+font-family: EBGaramond;
+}
+
+.tile-container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.tiles{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 35%;
+margin: 5%;
+padding: 20px;
+background-color: #9d8362;
+border: 5px ridge #405246;
+text-align: center;
+}
+
+.tile-button{
+    margin: 10px;
+}
+
+button:hover{
+    background-color: rgb(150, 126, 91);
+    color: rgb(77, 45, 4);
+    border: 4px groove rgb(151, 81, 16);
+    font-family: Germanica;
+}
+
+button:active{
+    transform: rotate(10deg);
+    font-size: 20px;
+}

@@ -99,6 +99,7 @@ background-size: cover;
 background-position: center;
 border: 8px ridge rgba(104,84,75,255);
 border-radius: 10px;
+animation: pictures-breathe 5s infinite;
 }
 
 
@@ -116,6 +117,7 @@ background-position: center;
 
 border: 8px ridge rgba(104,84,75,255);
 border-radius: 10px;
+animation: pictures-breathe 5s infinite;
 }
 
 
@@ -133,6 +135,7 @@ background-position: center;
 
 border: 8px ridge rgba(104,84,75,255);
 border-radius: 10px;
+animation: pictures-breathe 5s infinite;
 }
 
 
@@ -144,6 +147,7 @@ padding: 10px;
 
 background-color: #998670;
 border: 4px ridge #977d53;
+animation: pictures-breathe 5s infinite;
 }
 
 p{
@@ -163,4 +167,28 @@ font-weight: bold;
 border: 3px solid #554334;
 background-color: #847563;
 font-family: EBGaramond;
+}
+
+button:hover{
+    background-color: rgb(150, 126, 91);
+    color: rgb(77, 45, 4);
+    border: 4px groove rgb(151, 81, 16);
+    font-family: Germanica;
+}
+
+button:active{
+    transform: rotate(10deg);
+    font-size: 20px;
+}
+
+@keyframes pictures-breathe{
+    0%{
+        width: 17vw;
+    }
+    50%{
+        width: 16vw;
+    }
+    100%{
+        width: 17vw;
+    }
 }

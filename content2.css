@@ -49,6 +49,8 @@ img{
 width: 17vw;
 margin: 50px 40px;
 border: 4px ridge #774a35;
+filter: contrast(60%);
+animation: pictures-breathe 5s infinite;
 }
 
 .text-bottom{
@@ -61,4 +63,32 @@ border: 4px ridge #774a35;
 font-size: 20px;
 font-family: EBGaramond;
 font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(150, 126, 91);
+    color: rgb(77, 45, 4);
+    border: 4px groove rgb(151, 81, 16);
+    font-family: Germanica;
+}
+
+button:active{
+    transform: rotate(10deg);
+    font-size: 20px;
+}
+
+img:hover{
+    filter: contrast(99%);
+}
+
+@keyframes pictures-breathe{
+    0%{
+        width: 17vw;
+    }
+    50%{
+        width: 16vw;
+    }
+    100%{
+        width: 17vw;
+    }
 }

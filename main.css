@@ -73,3 +73,15 @@ border: 3px solid #554334;
 background-color: #847563;
 font-family: EBGaramond;
 }
+
+button:hover{
+    background-color: rgb(150, 126, 91);
+    color: rgb(77, 45, 4);
+    border: 4px groove rgb(151, 81, 16);
+    font-family: Germanica;
+}
+
+button:active{
+    transform: rotate(10deg);
+    font-size: 20px;
+}

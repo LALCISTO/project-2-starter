@@ -1,23 +1,63 @@
-body {
+@font-face{
+    src: url("./fonts/Fluted-Germanica.ttf");
+    font-family: Germanica;
+}
+
+@font-face{
+    src: url("./fonts/EBGaramond-Regular.ttf");
+    font-family: EBGaramond;
+}
+
+body{
 margin: 0;
-background-color: rgb(197, 197, 197);
-font-family: 'Times New Roman', Times, serif;
+background-image: url(./images/moss.jpg);
+background-size: cover;
+background-attachment: fixed;
+font-family: Germanica;
 }
 
 h1{
 text-align: center;
+color: #804e43;
 }
 
 h2{
 margin: 10px 40px;
+font-family: EBGaramond;
+color: #996b2a;
 }
 
 p{
 margin: 10px 40px;
+font-family: EBGaramond;
+font-weight: bold;
+color: #b88f57;
 }
 
 button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 8vw;
+height: 5vh;
+padding: 3px;
+text-align: center;
+font-size: 15px;
+color: #4d3416;
+font-weight: bold;
+border: 3px solid #554334;
+background-color: #847563;
+font-family: EBGaramond;
+}
+
+button:hover{
+    background-color: rgb(150, 126, 91);
+    color: rgb(77, 45, 4);
+    border: 4px groove rgb(151, 81, 16);
+    font-family: Germanica;
+}
+
+button:active{
+    transform: rotate(10deg);
+    font-size: 20px;
 }
