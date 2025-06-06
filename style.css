@@ -156,6 +156,10 @@ font-weight: bolder;
 color: #6d5939;
 }
 
+a{
+text-decoration: none;
+}
+
 button{
 width: 8vw;
 height: 5vh;
@@ -174,6 +178,7 @@ button:hover{
     color: rgb(77, 45, 4);
     border: 4px groove rgb(151, 81, 16);
     font-family: Germanica;
+    animation: button-shake 4s infinite;
 }
 
 button:active{
@@ -190,5 +195,17 @@ button:active{
     }
     100%{
         width: 17vw;
+    }
+}
+
+@keyframes button-shake{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
     }
 }

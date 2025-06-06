@@ -65,11 +65,16 @@ font-family: EBGaramond;
 font-weight: bold;
 }
 
+a{
+text-decoration: none;
+}
+
 button:hover{
     background-color: rgb(150, 126, 91);
     color: rgb(77, 45, 4);
     border: 4px groove rgb(151, 81, 16);
     font-family: Germanica;
+    animation: button-shake 4s infinite;
 }
 
 button:active{
@@ -79,7 +84,9 @@ button:active{
 
 img:hover{
     filter: contrast(99%);
+    filter: drop-shadow(5px 5px 28px rgb(161, 135, 77));
 }
+
 
 @keyframes pictures-breathe{
     0%{
@@ -90,5 +97,17 @@ img:hover{
     }
     100%{
         width: 17vw;
+    }
+}
+
+@keyframes button-shake{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
     }
 }

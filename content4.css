@@ -34,6 +34,10 @@ font-weight: bold;
 color: #b88f57;
 }
 
+a{
+text-decoration: none;
+}
+
 button{
 display: block;
 margin-left: auto;
@@ -55,9 +59,22 @@ button:hover{
     color: rgb(77, 45, 4);
     border: 4px groove rgb(151, 81, 16);
     font-family: Germanica;
+    animation: button-shake 4s infinite;
 }
 
 button:active{
     transform: rotate(10deg);
     font-size: 20px;
+}
+
+@keyframes button-shake{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
 }

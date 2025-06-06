@@ -43,6 +43,10 @@ margin: 20px 700px;
 border: 3px ridge rgb(122, 99, 48);
 }
 
+a{
+text-decoration: none;
+}
+
 .text-box{
 display: flex;
 flex-wrap: wrap;
@@ -79,9 +83,35 @@ button:hover{
     color: rgb(77, 45, 4);
     border: 4px groove rgb(151, 81, 16);
     font-family: Germanica;
+    animation: button-shake 4s infinite;
 }
 
 button:active{
     transform: rotate(10deg);
     font-size: 20px;
+}
+
+
+@keyframes button-shake{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes pictures-breathe{
+    0%{
+        width: 17vw;
+    }
+    50%{
+        width: 16vw;
+    }
+    100%{
+        width: 17vw;
+    }
 }

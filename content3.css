@@ -19,9 +19,13 @@ font-weight: bold;
 
 h1{
 text-align: center;
-font-size: 4vh;
+font-size: 8vh;
 font-family: Germanica;
 color: #556b5c;
+}
+
+a{
+text-decoration: none;
 }
 
 button{
@@ -68,9 +72,22 @@ button:hover{
     color: rgb(77, 45, 4);
     border: 4px groove rgb(151, 81, 16);
     font-family: Germanica;
+    animation: button-shake 4s infinite;
 }
 
 button:active{
     transform: rotate(10deg);
     font-size: 20px;
+}
+
+@keyframes button-shake{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
 }
